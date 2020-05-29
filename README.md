@@ -1,4 +1,8 @@
-#### 经常忘记的点
+### 简介
+> 通过实际的例子深入使用下webpack 打包文件，处理各种资源，以及配置开发环境，上线环境等。
+> 学习地址：https://www.imooc.com/learn/802
+
+#### 可能忘记的点
 > 对.html文件进行打包
 https://github.com/jantimon/html-webpack-plugin#minification
 
@@ -6,8 +10,7 @@ https://github.com/jantimon/html-webpack-plugin#minification
 https://www.imooc.com/video/14192     21:00
 https://github.com/jantimon/html-webpack-plugin/blob/master/examples/inline/template.pug
 
-
-
+#### 项目依赖
 | 依赖包名  | 描述  | 网站地址 |
 | :---------- | :----- | ------ |
 | webpack，webpack-cli | 需要同时安装。 | https://webpack.docschina.org/guides/getting-started/ |
