@@ -75,8 +75,25 @@ module.exports = {
 
 
       {
-        test: /\.ejs$/,
+        test: /\.html$/,
         loader: "html-loader",
+      },
+      {
+        test: /\.(jpg|png|gif|jpeg|svg)$/,
+        use: [
+          {
+            loader: "url-loader",
+            options: {
+              limit: 20000,    // 把小于30kb的文件转换成base64
+              outputPath: 'assets',
+              name: '[name]-[hash:5].[ext]',
+            },
+          },
+          {
+            loader: 'image-webpack-loader'
+          }
+        ],
+
       }
     ],
   },

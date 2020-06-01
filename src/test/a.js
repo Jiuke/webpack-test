@@ -1,4 +1,4 @@
-import tpl from './test.ejs';
+import tpl from './test.html';
 
 function test() {
   return {
